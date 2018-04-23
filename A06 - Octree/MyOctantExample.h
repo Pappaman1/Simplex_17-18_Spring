@@ -55,7 +55,7 @@ public:
 	- float a_fSize -> size of each side of the octant volume
 	OUTPUT: class object
 	*/
-	MyOctant(vector3 a_v3Center, float a_fSize);
+	MyOctant(vector3 a_v3Center, float a_fSize, int level);
 	/*
 	USAGE: Copy Constructor
 	ARGUMENTS: class object to copy
